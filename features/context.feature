@@ -1,5 +1,5 @@
 # language: no
-Feature: Create ontext
+Feature: Create context
 
   Background: Access cluster endpoint
       Given username <user> and token <token> access cluster <cluster> at endpoint <endpoint>:
