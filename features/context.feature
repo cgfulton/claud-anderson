@@ -6,8 +6,7 @@ Feature: Create ontext
         | user            |      token |      cluster |                   endpoint |
         | some_admin_user | some_token | some_cluster | http://some.api.host:8080/api/ |
   
-  Senario Outline: Define context for each namespace
-    Given namespace <namespace>
+  Scenario Outline:  Given namespace <namespace>
     Then set context <context> cluster <cluster> for user <user>
     
   Examples:
