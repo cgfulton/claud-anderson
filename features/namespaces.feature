@@ -17,12 +17,3 @@ Feature: Namespaces
     | some_namespace_alpha | development | confidential |
     | some_namespace_beta  | production  | secret       |
   
-  Senario Outline: Define context for each namespace
-    Given namespace <namespace>
-    Then set context <context> cluster <cluster> for user <user>
-    
-  Examples:
-    | namespace            | cluster      | user      | context |
-    | some_namespace_alpha | some_cluster | some_user | alpha   |
-    | some_namespace_beta  | some_cluster | some_user | beta    |
-  
